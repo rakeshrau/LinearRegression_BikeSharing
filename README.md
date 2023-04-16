@@ -1,48 +1,39 @@
 # Bike Sharing-Linear Regression
-A US bike-sharing provider BoomBikes has recently suffered considerable dips in their revenues due to the ongoing Corona pandemic.So, it has decided to come up with a mindful business plan to be able to accelerate its revenue as soon as the ongoing lockdown comes to an end.They have contracted a consulting company to understand the factors on which the demand for these shared bikes depends. Specifically, they want to understand the factors affecting the demand for these shared bikes in the American market. The company wants to know:
+
+## Business Objective:
+A US bike-sharing provider BoomBikes have contracted a consulting company to understand the factors on which the demand for the shared bikes depends. Specifically, they want to understand the factors affecting the demand for the shared bikes. The company wants to know:
+
 1.Which variables are significant in predicting the demand for shared bikes.
+
 2.How well those variables describe the bike demands.
+
 We are required to model the demand for shared bikes with the available independent variables. It will be used by the management to understand how exactly the demands vary with different features. They can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations. Further, the model will be a good way for management to understand the demand dynamics of a new market. 
 
 
 ## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
+* [Dataset](#Dataset)
+* [Technologies](#Technologies)
+* [Conclusions](#Conclusions)
+* [Contributors](#Contributors)
 
-<!-- You can include any other section that is pertinent to your problem -->
 
-## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+## Dataset
+- 'day.csv' dataset is used,which is dataset on daily bike demands across the American market based on some factors. 
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+## Technologies
+- Python-3.7.3
+- Pandas-0.24.2
+- Numpy-1.16.4
+- Matplotlib-3.1.0
+- Seaborn-0.9.0
+- Statsmodels-0.10.0
+- Scikit-learn-0.21.2
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Temperature(temp) has largest positive co-efficient so an increase in temperature has maximum impact on the number of rides.
+- Year, Seasons(Summer,Winter) and month(September) also have positive impact on increase in number of rides.
+- Windspeed,Sunday and Weather(Misty,Light_SnowRainThunder) factors cause a decrease in number of rides.
+- Months(January,February,July,November,December) causes a decrease in number of rides.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
-
-## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
-
-## Contact
-Created by [@githubusername] - feel free to contact me!
+## Contributors
+Created by [@rakeshrau] - Rakesh Raushan
