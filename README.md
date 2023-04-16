@@ -1,7 +1,7 @@
 # Bike Sharing-Linear Regression
 
 ## Business Objective:
-A US bike-sharing provider BoomBikes have contracted a consulting company to understand the factors on which the demand for the shared bikes depends. Specifically, they want to understand the factors affecting the demand for the shared bikes. The company wants to know:
+A US bike-sharing provider BoomBikes have recently suffered considerable dips in their revenues due to pandemic and hence have contracted a consulting company to understand the factors on which the demand for the shared bikes depends. Specifically, they want to understand the factors affecting the demand for the shared bikes. The company wants to know:
 
 1.Which variables are significant in predicting the demand for shared bikes.
 
@@ -18,7 +18,7 @@ We are required to model the demand for shared bikes with the available independ
 
 
 ## Dataset
-- 'day.csv' dataset is used,which is dataset on daily bike demands across the American market based on some factors. 
+- 'day.csv' dataset is used.It is dataset sourced by service provider firm on daily bike demands across the American market based on various factors. 
 
 ## Technologies
 - Python-3.7.3
@@ -30,10 +30,10 @@ We are required to model the demand for shared bikes with the available independ
 - Scikit-learn-0.21.2
 
 ## Conclusions
-- Temperature(temp) has largest positive co-efficient so an increase in temperature has maximum impact on the number of rides.
+- Temperature(temp) has largest positive impact on Ride counts,so an increase in temperature is associated with increase in the number of rides.
 - Year, Seasons(Summer,Winter) and month(September) also have positive impact on increase in number of rides.
-- Windspeed,Sunday and Weather(Misty,Light_SnowRainThunder) factors cause a decrease in number of rides.
-- Months(January,February,July,November,December) causes a decrease in number of rides.
+- Windspeed,Sunday and Weather(Misty,Light Snow/Rain/Thunder) factors cause a decrease in number of rides.
+- Months(January,February,July,November,December) are associated with decrease in number of rides.
 
 ## Contributors
 Created by [@rakeshrau] - Rakesh Raushan
